@@ -16,13 +16,14 @@
 }
 
 .portfolio-item:hover .front {
+	/*position: absolute;*/
 	-webkit-transform: rotateY(180deg);
 }
 
 .front {
-	/*position: absolute;*/
+	position: absolute;
 	/*z-index: 900;*/
-	/*-webkit-backface-visibility: hidden;*/
+	-webkit-backface-visibility: hidden;
 }
 
 .front:hover {
